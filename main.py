@@ -1,3 +1,5 @@
+import matplotlib.pyplot as pit
+import streamlit as st
 filename = "data.csv"
 def get_data(fn):
     with open (fn) as file:
